@@ -44,7 +44,7 @@ class PythonGmailer:
             text = MIMEText(text)
             self.msg.attach(text)
 
-    def attach_image(self, img_path, callback=None):
+    def image(self, img_path, callback=None):
         """Attach an image to an email. Only use AFTER NewEmail
         
             Arguments:
@@ -101,7 +101,7 @@ def main():
 
     emailer.new(msg)
     emailer.body("example_text")
-    emailer.attach_image('#1.jpg')
+    emailer.image('#1.jpg')
     emailer.send()
 
 if __name__ == '__main__':
