@@ -1,0 +1,13 @@
+td {
+	height: 1.5em;
+	width: 1.5em;
+	background-color: darkgrey;
+}
+
+td.border {
+	background-color: black;
+}
+
+.off:hover {
+	background-color: grey;
+}

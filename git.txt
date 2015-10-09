@@ -1,0 +1,6 @@
+Steps for adding files to GitHub:
+  1. git add <file>/<directory>
+  2. git commit -m 'commit message'
+  3. git push origin master
+Pulling files from GitHub:
+  1. git remote add origin https://github.com/yourusername/Hello-World.git

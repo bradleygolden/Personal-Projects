@@ -1,0 +1,1 @@
+A basic python application to send messages with attachments through gmail.

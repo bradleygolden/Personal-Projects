@@ -1,0 +1,259 @@
+.navbar-brand {
+	font-size: 30px;
+  font-family: 'Permanent Marker', cursive;
+}
+.navbar-default {
+  background-color: black;
+  border-color: transparent;
+  box-shadow: 0px 0px 10px black;
+}
+.navbar-default .navbar-brand {
+  color: #fff;
+}
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+  color: #fff;
+  transition: all 0.3s ease 0s;
+}
+.navbar-default .navbar-text {
+  color: #fff;
+  transition: all 0.3s ease 0s;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #fff;
+  transition: all 0.3s ease 0s;
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+  text-decoration: none;
+  background-color: #CC0000;
+  color: #fff;
+  border-radius:0;
+  transition: all 0.3s ease 0s;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+  color: #fff;
+  background-color: #CC0000;
+  transition: all 0.3s ease 0s;
+}
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+  color: #fff;
+  background-color: #CC0000;
+  transition: all 0.3s ease 0s;
+}
+.navbar-default .navbar-toggle {
+  border-color: #CC0000;
+  transition: all 0.3s ease 0s;
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+  background-color: #CC0000;
+  transition: all 0.3s ease 0s;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #fff;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #fff;
+}
+.navbar-default .navbar-link {
+  color: #fff;
+}
+.navbar-default .navbar-link:hover {
+  color: #fff;
+  transition: all 0.3s ease 0s;
+}
+
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #fff;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #fff;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #fff;
+    background-color: #CC0000;
+  }
+}
+
+.meetup-icon {
+	margin-bottom: -15px;
+	margin-top: -15px;
+	height: 30px;
+	width: 40px;
+}
+.mkp-icon {
+	margin-top: -15px;
+	height: 50px;
+	width: 70px;
+}
+/* general styles */
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+/* padded section */
+.pad-section {
+  padding: 50px 0;
+}
+.pad-section img {
+  width: 100%;
+}
+
+/* vertical-centered text */
+.text-vcenter {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+.text-vcenter h1 {
+  font-size: 4.5em;
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+}
+
+/* additional sections */
+#home {
+  /*background: url() no-repeat center center fixed;*/
+  display: table;
+  height: 100%;
+  position: relative;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: white;
+}
+#home .panel{
+  color:white;
+  background-color: #333333;
+}
+.btn {
+  background-color: #CC0000;
+  color: white;
+}
+.btn:hover {
+  background-color: #FFFFFF;
+  color: #333333;
+  transition: all 0.3s ease 0s;
+}
+
+#who-we-are {
+  background-color: #E9E9E9;
+}
+#who-we-are .panel-heading{
+  background-color: #333333;
+  color: white;
+}
+
+#what-we-offer {
+  background-color: #333333;
+  color: #ffffff;
+}
+#what-we-offer .glyphicon {
+  border: 2px solid #FFFFFF;
+  border-radius: 50%;
+  display: inline-block;
+  font-size: 60px;
+  height: 140px;
+  line-height: 140px;
+  text-align: center;
+  vertical-align: middle;
+  width: 140px;
+}
+
+#how-it-works {
+  /*background: url(http://www.secretsofthefed.com/wp-content/uploads/2013/04/The-Night-Sky-Wallpaper.jpg) no-repeat center center fixed; */
+  display: table;
+  height: 75%;
+  position: relative;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: #333333;
+}
+
+#how-it-works .panel {
+  color: black;
+}
+#how-it-works .panel-heading{
+  background-color: #333333;
+  color: white;
+}
+
+#where-to-find-us {
+  background-color: #E5E5E5;
+  color: #333333;
+}
+#calendar {
+  background-color: #E5E5E5;
+  color: #333333;
+}
+
+#participate {
+  background-color: #333333;
+  color: #ffffff;
+}
+
+#participate .glyphicon {
+  border: 2px solid #FFFFFF;
+  border-radius: 50%;
+  display: inline-block;
+  font-size: 60px;
+  height: 140px;
+  line-height: 140px;
+  text-align: center;
+  vertical-align: middle;
+  width: 140px;
+  color:white;
+}
+
+#participate a .glyphicon:hover {
+  background-color: #CC0000;
+  color: white;
+  transition: all 0.3s ease 0s;
+}
+
+#google_map {
+  height: 500px;
+  width: 100%;
+  color: black;
+  border: 4px solid #333333;
+  border-radius: 0.5%;
+}
+
+#contact {
+  /*background: url(../img/background.jpeg) no-repeat center center fixed; */
+  display: table;
+  position: relative;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: white;
+}
+#contact .glyphicon {
+  border: 2px solid #FFFFFF;
+  border-radius: 50%;
+  display: inline-block;
+  font-size: 30px;
+  height: 70px;
+  line-height: 70px;
+  text-align: center;
+  vertical-align: middle;
+  width: 70px;
+}
+footer .glyphicon {
+  color: white;
+  font-size: 60px;
+}
+footer .glyphicon:hover {
+  background-color: #CC0000;
+  color: white;
+  transition: all 0.3s ease 0s;
+}
